@@ -1,0 +1,139 @@
+###############################################
+#########                             #########
+#########          LobbyUtils         #########
+#########          By Londek          #########
+#########                             #########
+#########      Configuration file     #########
+#########                             #########
+###############################################
+
+#This setting prevents spawning much particles and player-side lags
+#I recommend using this setting when particles are enabled
+enableVanishCooldown: true
+vanishCooldown: 3
+
+enableVanishParticles: true
+
+permission_bypass:
+  destroy: "default"
+  place: "default"
+  completely_hit: "default"
+  drop: "default"
+
+permission_premium:
+  fly: "default"
+  hit: "default"
+  vanish: "default"
+  hideplayers: "default"
+  sit: "default"
+
+compassEQ:
+  name: "&aDefault compass eq name"
+  size: 54
+
+  #Can be NONE
+  backgroundItem: "STAINED_GLASS_PANE"
+  backgroundItemName: "&aBackground item: &fSTAINED_GLASS_PANE"
+  backgroundItemLore:
+  - ""
+  - "&fThis is ONLY"
+  - "&b&lBACKGROUND"
+  - ""
+
+  teleportItems:
+    CHEST:
+      name: "&aExample item: &fChest"
+      lore:
+      - ""
+      - "&fTeleports into"
+      - "&a&lhub &fdimmension"
+      - ""
+
+      teleports: "hub"
+
+      #Can be NONE
+      enchantment: "none"
+      enchantmentLevel: 1
+
+      slot: 1
+
+  otherItems:
+    ANVIL:
+      name: "&aExample item: &fAnvil"
+      lore:
+      - ""
+      - "&fThis one can't teleport"
+      - "&fto &c&lany &fdimmension"
+      - ""
+
+      #Can be NONE
+      enchantment: "none"
+      enchantmentLevel: 1
+
+      slot: 0
+
+items:
+  compass:
+    name: "&cC&6o&em&ap&2a&bss &7name"
+    lore:
+      - "&cLore"
+      - "&6Lore"
+      - "&eLore"
+      - "&aLore"
+  enablefly:
+    name: "&cF&6l&ey &7[&bMVP RANK&7] &a*ENABLE*"
+    lore:
+    - "&cLore"
+    - "&6TO ENABLE"
+    - "&eRIGHTCLICK ITEM"
+    - "&aLore"
+  disablefly:
+    name: "&cF&6l&ey &7[&bMVP RANK&7] &c*DISABLE*"
+    lore:
+    - "&cLore"
+    - "&6TO DISABLE"
+    - "&eRIGHTCLICK ITEM"
+    - "&aLore"
+  enablehideplayers:
+    name: "&cH&6i&ed&ae &2P&bl&9a&1y&de&cr&6s &7[&bMVP+ RANK&7] &a*ENABLE*"
+    lore:
+    - "&cLore"
+    - "&6TO ENABLE"
+    - "&eRIGHTCLICK ITEM"
+    - "&aLore"
+  disablehideplayers:
+    name: "&cH&6i&ed&ae &2P&bl&9a&1y&de&cr&6s &7[&bMVP+ RANK&7] &c*DISABLE*"
+    lore:
+    - "&cLore"
+    - "&6TO DISABLE"
+    - "&eRIGHTCLICK ITEM"
+    - "&aLore"
+  enablevanish:
+    name: "&cV&6a&en&ai&2s&bh &7[&bMVP++ RANK&7] &a*ENABLE*"
+    lore:
+    - "&cLore"
+    - "&6TO ENABLE"
+    - "&eRIGHTCLICK ITEM"
+    - "&aLore"
+  disablevanish:
+    name: "&cV&6a&en&ai&2s&bh &7[&bMVP++ RANK&7] &c*DISABLE*"
+    lore:
+    - "&cLore"
+    - "&6TO DISABLE"
+    - "&eRIGHTCLICK ITEM"
+    - "&aLore"
+messages:
+  connecting: "&aConnecting with &f%server%"
+  no_permission: "&cHey! You dont have permissions to &8%permission%"
+  cooldown: "&cHey! You have to wait &8%time%s &cuntil use this privilege"
+
+  cantdestroy: "&cHey! Here you cant destroy any block. Good luck in griefing"
+  cantplace: "&cHey! Here you cant place any block. Good luck in griefing"
+  cantdrop: "&cHey! Here you cant drop any item."
+  canthit: "&cHey! Here you cant hit any players."
+
+  enablehideplayers: "&aHiding another players enabled!"
+  disablehideplayers: "&cHiding another players disabled!"
+
+  enablevanish: "&aVanish enabled!"
+  disablevanish: "&cVanish disabled!"

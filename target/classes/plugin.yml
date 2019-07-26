@@ -1,0 +1,8 @@
+name: LobbyUtils
+version: 1.0-SNAPSHOT
+main: pl.londek.lobbyutils.LobbyUtils
+prefix: LobbyUtils
+author: Londek
+description: Plugin napisany przez Londek
+softdepend:
+- "ParticleAPI"

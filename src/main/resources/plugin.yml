@@ -1,0 +1,8 @@
+name: LobbyUtils
+version: ${project.version}
+main: pl.londek.lobbyutils.LobbyUtils
+prefix: LobbyUtils
+author: Londek
+description: Plugin napisany przez Londek
+softdepend:
+- "ParticleAPI"
