@@ -1,7 +1,7 @@
 # LobbyUtils - Lobby utilities for minecraft server owners
 `Dev only info: Actually LobbyUtils doesn't contain api, but you can get plugin instance and manage cooldowns and config`
 
-#### LobbyUtils are ultimate Lobby Utilities for server owners including server compass, fly item etc.
+#### LobbyUtils is ultimate Lobby Utilities for server owners including server compass, fly item etc.
 
 ## INCLUDING COMPASS MENU BUILDER!
 In config you can build your own **compass menu theme**
